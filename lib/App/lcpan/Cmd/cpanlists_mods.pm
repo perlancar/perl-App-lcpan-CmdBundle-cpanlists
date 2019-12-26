@@ -37,7 +37,7 @@ sub handle_cmd {
 
     for (@{$res->[2]}) {
         if ($args{detail}) {
-            $_->{name} =~ s/^Acme::CPANLists:://;
+            ($_->{name} = $_->{module}) =~ s/^Acme::CPANLists:://;
         } else {
             s/^Acme::CPANLists:://;
         }
