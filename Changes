@@ -1,3 +1,8 @@
+0.020   2019-12-26  Released-By: PERLANCAR; Urgency: medium
+
+	- [bugfix] Column name was not defined.
+
+
 0.01    2016-02-26  Released-By: PERLANCAR
 
         - No functional changes.
